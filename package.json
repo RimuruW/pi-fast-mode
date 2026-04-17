@@ -1,0 +1,43 @@
+{
+  "name": "@linioi/pi-fast-mode",
+  "version": "0.1.0",
+  "description": "A pi extension that adds a protocol-aware /fast command with status indicator and priority service tier injection.",
+  "type": "module",
+  "author": "RimuruW",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RimuruW/pi-fast-mode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RimuruW/pi-fast-mode/issues"
+  },
+  "homepage": "https://github.com/RimuruW/pi-fast-mode#readme",
+  "files": [
+    "index.js",
+    "src/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "pi-extension",
+    "pi-package",
+    "fast-mode",
+    "coding-agent"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --test",
+    "prepack": "npm run check"
+  },
+  "pi": {
+    "extensions": [
+      "./index.js"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  }
+}
