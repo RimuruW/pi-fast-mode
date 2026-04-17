@@ -1,4 +1,4 @@
-# @linioi/pi-fast-mode
+# Pi Fast Mode
 
 [![npm version](https://img.shields.io/npm/v/%40linioi%2Fpi-fast-mode.svg)](https://www.npmjs.com/package/@linioi/pi-fast-mode)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/RimuruW/pi-fast-mode/blob/main/LICENSE)
